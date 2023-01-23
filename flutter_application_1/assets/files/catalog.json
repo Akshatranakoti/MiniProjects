@@ -1,0 +1,45 @@
+{
+
+"products":[
+    {
+        "id":1,
+        "name":"iphone 12 pro",
+        "desc":"apple iphone 12th generation",
+        "price":999,
+        "color":"#33505a",
+        "image":"https://th.bing.com/th/id/OIP.iJs5oYOdJfYel9yxYGg5vAHaJm?w=140&h=181&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+    },
+    {
+        "id":2,
+        "name":"pixel 5",
+        "desc":"google pixel 5th generation",
+        "price":69999,
+        "color":"#00ac51",
+        "image":"https://th.bing.com/th/id/OIP.sSmKu1Y2SX1jbL2-EvNE6AHaFj?w=283&h=212&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+    },
+    {
+        "id":3,
+        "name":"M1 macbook air",
+        "desc":"apple macbook air with apple silicon",
+        "price":109999,
+        "color":"#554ee4",
+        "image":"https://th.bing.com/th/id/OIP.c9vRR4Oq3xcDpqx5jVhwSgHaHa?w=202&h=187&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+    },
+    {
+        "id":4,
+        "name":"Air pods pro",
+        "desc":"apple pods pro 1st generation",
+        "price":25000,
+        "color":"#e0bfae",
+        "image":"https://th.bing.com/th/id/OIP.R9QfhwaDI-TYzhQnJDeAdQHaH_?w=162&h=180&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+    },
+    {
+        "id":5,
+        "name":"Galaxy S21 Ultra",
+        "desc":"galaxy S21 5G",
+        "price":25000,
+        "color":"#e0bfae",
+        "image":"https://th.bing.com/th/id/OIP.TSqW7X-I1jYIS2D3vrQF-wHaHa?w=188&h=187&c=7&r=0&o=5&dpr=1.8&pid=1.7"
+    }
+]
+}
