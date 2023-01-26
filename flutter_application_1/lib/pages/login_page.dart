@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/utils/routes.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -30,13 +31,14 @@ class _LoginPageState extends State<LoginPage> {
 
   Widget build(BuildContext context) {
     return Material(
-        color: Colors.white,
+        color: context.cardColor,
         child: SingleChildScrollView(
           child: Form(
             key: _formKey,
             child: Column(
               children: [
                 Image.asset("assets/images/loginimage.png",
+                
                     height: 300, fit: BoxFit.cover),
                 SizedBox(
                   height: 20,
@@ -46,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
                   style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
-                      color: Colors.deepPurple),
+                      color: context.theme.accentColor),
                 ),
                 SizedBox(
                   height: 20,
@@ -87,7 +89,7 @@ class _LoginPageState extends State<LoginPage> {
                         height: 20.0,
                       ),
                       Material(
-                        color: Colors.deepPurple,
+                        color: context.theme.buttonColor,
                         borderRadius:
                             BorderRadius.circular(changeButton ? 50 : 7),
                         child: InkWell(
